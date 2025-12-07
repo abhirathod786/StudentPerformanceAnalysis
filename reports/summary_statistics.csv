@@ -1,0 +1,2 @@
+total_students,pass_rate,fail_count,model_accuracy,model_auc,avg_math_score,avg_reading_score,avg_writing_score,test_prep_impact,at_risk_students
+1000,89.7,103,89.5,0.7004522479382814,66.089,69.169,68.054,7.630519152787201,103

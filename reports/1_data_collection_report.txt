@@ -1,0 +1,30 @@
+DATA COLLECTION REPORT
+============================================================
+
+Total Records: 1000
+Total Features: 8
+
+Columns:
+['gender', 'race/ethnicity', 'parental level of education', 'lunch', 'test preparation course', 'math score', 'reading score', 'writing score']
+
+Data Types:
+gender                         object
+race/ethnicity                 object
+parental level of education    object
+lunch                          object
+test preparation course        object
+math score                      int64
+reading score                   int64
+writing score                   int64
+dtype: object
+
+Missing Values:
+gender                         0
+race/ethnicity                 0
+parental level of education    0
+lunch                          0
+test preparation course        0
+math score                     0
+reading score                  0
+writing score                  0
+dtype: int64

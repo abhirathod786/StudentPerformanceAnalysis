@@ -1,0 +1,32 @@
+EXPLORATORY DATA ANALYSIS REPORT
+============================================================
+
+KEY FINDINGS:
+
+1. SCORE DISTRIBUTIONS:
+   - Math: Mean=66.09, Std=15.16
+   - Reading: Mean=69.17, Std=14.60
+   - Writing: Mean=68.05, Std=15.20
+
+2. PASS/FAIL ANALYSIS:
+   - Pass Rate: 89.7%
+   - Fail Rate: 10.3%
+
+3. TEST PREPARATION IMPACT:
+   - Score difference: +7.63 points
+   - Pass rate difference: +8.2%
+
+4. CORRELATIONS:
+   Top correlations with status:
+   - average_score: 0.611
+   - writing score: 0.601
+   - reading score: 0.595
+
+5. VISUALIZATIONS CREATED:
+   - 1_score_distributions.png
+   - 2_pass_fail_analysis.png
+   - 3_subject_comparison.png
+   - 4_test_prep_impact.png
+   - 5_correlation_matrix.png
+   - 6_scores_by_status.png
+   - 7_parental_education_impact.png

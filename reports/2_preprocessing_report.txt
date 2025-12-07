@@ -1,0 +1,24 @@
+DATA PREPROCESSING REPORT
+============================================================
+
+STEPS PERFORMED:
+1. Feature Engineering
+   - Created: average_score, total_score
+   - Created: status (Pass/Fail)
+   - Created: performance category
+   - Identified: weak_subject
+
+2. Missing Values Handling
+   - Found: 0 missing values
+   - Action: Removed rows with missing data
+
+3. Ethical AI Application
+   - Removed sensitive features:
+     • gender
+     • race/ethnicity
+
+4. Final Dataset
+   - Total records: 1000
+   - Total features: 13
+   - Pass rate: 89.7%
+   - Average score: 67.77

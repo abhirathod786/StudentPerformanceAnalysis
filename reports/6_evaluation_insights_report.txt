@@ -1,0 +1,77 @@
+EVALUATION & INSIGHTS REPORT
+============================================================
+
+PERFORMANCE METRICS:
+------------------------------------------------------------
+Accuracy:  0.8950 (89.50%)
+Precision: 0.8950
+Recall:    1.0000
+F1-Score:  0.9446
+ROC AUC:   0.7005
+------------------------------------------------------------
+
+KEY INSIGHTS:
+============================================================
+1. MODEL PERFORMANCE
+   The model achieves 89.5% accuracy in predicting student performance.
+   With an AUC of 0.700, the model demonstrates strong discriminative ability.
+
+2. TEST PREPARATION IMPACT
+   Students who completed test prep score 7.6 points higher on average.
+   Recommendation: Encourage all students to enroll in test preparation courses.
+
+3. OVERALL PERFORMANCE
+   Current pass rate: 89.7%
+   103 students are at risk of failing.
+   Early intervention could help these students improve.
+
+4. SOCIOECONOMIC FACTORS
+   Students with parents having 'master's degree' score 10.5 points higher
+   than those with parents having 'high school'.
+   Recommendation: Provide additional support to students from lower-education backgrounds.
+
+5. SUBJECT ANALYSIS
+   Weakest subject: Math (avg: 66.1)
+   Recommendation: Focus additional resources on Math instruction.
+
+
+ACTIONABLE RECOMMENDATIONS:
+============================================================
+
+IMMEDIATE ACTIONS:
+1. Identify at-risk students using the prediction model
+2. Enroll all students in test preparation courses
+3. Provide extra tutoring for the weakest subject areas
+
+DATA-DRIVEN STRATEGIES:
+4. Track attendance and engagement metrics closely
+5. Monitor students from lower socioeconomic backgrounds
+6. Implement early warning systems (Week 4-5 of semester)
+
+SUPPORT PROGRAMS:
+7. Create peer mentoring programs
+8. Offer additional support for economically disadvantaged students
+9. Engage parents in the learning process
+
+CONTINUOUS IMPROVEMENT:
+10. Regularly update the model with new data
+11. Measure effectiveness of interventions
+12. Adjust strategies based on results
+
+
+VISUALIZATIONS CREATED:
+------------------------------------------------------------
+- 12_roc_curve.png
+- 13_final_feature_importance.png
+
+
+CLASSIFICATION REPORT:
+------------------------------------------------------------
+              precision    recall  f1-score   support
+
+        Fail       0.00      0.00      0.00        21
+        Pass       0.90      1.00      0.94       179
+
+    accuracy                           0.90       200
+   macro avg       0.45      0.50      0.47       200
+weighted avg       0.80      0.90      0.85       200

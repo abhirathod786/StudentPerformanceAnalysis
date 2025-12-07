@@ -1,0 +1,47 @@
+MODEL BUILDING REPORT
+============================================================
+
+MODELS TRAINED:
+1. Logistic Regression
+2. Decision Tree
+3. Random Forest
+4. SVM
+5. KNN
+6. Gradient Boosting
+
+PERFORMANCE SUMMARY:
+------------------------------------------------------------
+Model                     Accuracy     CV Score       
+------------------------------------------------------------
+Logistic Regression       0.8950       0.8975 (±0.0031)
+Decision Tree             0.8950       0.8975 (±0.0031)
+Random Forest             0.8950       0.8975 (±0.0031)
+SVM                       0.8950       0.8975 (±0.0031)
+KNN                       0.8850       0.8863 (±0.0145)
+Gradient Boosting         0.8950       0.8975 (±0.0031)
+
+============================================================
+SELECTED MODEL: Decision Tree
+Accuracy: 0.8950
+CV Score: 0.8975
+============================================================
+
+CLASSIFICATION REPORT:
+------------------------------------------------------------
+              precision    recall  f1-score   support
+
+        Fail       0.00      0.00      0.00        21
+        Pass       0.90      1.00      0.94       179
+
+    accuracy                           0.90       200
+   macro avg       0.45      0.50      0.47       200
+weighted avg       0.80      0.90      0.85       200
+
+CONFUSION MATRIX:
+[[  0  21]
+ [  0 179]]
+
+VISUALIZATIONS CREATED:
+- 9_model_comparison.png
+- 10_confusion_matrix_Decision_Tree.png
+- 11_cross_validation_scores.png

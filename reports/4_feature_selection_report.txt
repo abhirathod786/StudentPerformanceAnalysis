@@ -1,0 +1,43 @@
+FEATURE SELECTION REPORT
+============================================================
+
+SELECTION CRITERIA:
+1. Actionability: Students/schools can change these factors
+2. Non-discrimination: No sensitive demographics
+3. Educational relevance: Proven impact on performance
+
+SELECTED FEATURES:
+1. parental level of education
+2. lunch
+3. test preparation course
+
+EXCLUDED FEATURES (Ethical AI):
+- gender
+- race/ethnicity
+
+FEATURE IMPORTANCE RANKING:
+parental level of education: 0.5327
+lunch: 0.2904
+test preparation course: 0.1770
+
+FEATURE STATISTICS:
+
+parental level of education:
+  some college: 226 (22.6%)
+  associate's degree: 222 (22.2%)
+  high school: 196 (19.6%)
+  some high school: 179 (17.9%)
+  bachelor's degree: 118 (11.8%)
+  master's degree: 59 (5.9%)
+
+lunch:
+  standard: 645 (64.5%)
+  free/reduced: 355 (35.5%)
+
+test preparation course:
+  none: 642 (64.2%)
+  completed: 358 (35.8%)
+
+DATA SPLIT:
+Training set: 800 samples (80.0%)
+Testing set: 200 samples (20.0%)
